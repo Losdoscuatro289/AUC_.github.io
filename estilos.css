@@ -1,0 +1,86 @@
+:root {
+    --negro: #141414;
+    --blanco: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--negro);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 30px 0;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logotipo {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: normal;
+    color: var(--blanco);
+    margin-right: 600px;
+}
+
+header nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#img1 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#q1 {
+    color: var(--blanco);
+    display: flex;
+    margin-left: 560px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#q2 {
+    color: var(--blanco);
+    display: flex;
+    margin-top: 50px;
+    margin-left: 120px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#t1 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--blanco);
+    display: flex;
+    margin-top: 10px;
+    margin-left: 495px;
+}
+
+#t2 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--blanco);
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#f1 {
+    color: var(--blanco);
+    margin-left: 490;
+}
